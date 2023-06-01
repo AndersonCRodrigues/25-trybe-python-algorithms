@@ -1,5 +1,5 @@
 def find_duplicate(nums=None):
-    if nums is None:
+    if nums is None or len(nums) <= 1:
         return False
 
     numeros_vistos = []
